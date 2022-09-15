@@ -1,0 +1,106 @@
+body {
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    background: linear-gradient(#ffe3e0, #bad7f2);
+    color: #ef6351;
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0 0 1px black;
+}
+
+#pet-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 6px solid #f7a399;
+    margin-bottom: 10px;
+}
+
+#bday-age {
+    background: #f7a399;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+
+#bday-date {
+    margin: 0;
+    background: #f7a399;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+#gift-img-cheers {
+    height: 200px;
+}
+
+.gift-img {
+    margin: 20px auto;
+    max-width: 600px;
+    height: 400px;
+    border: 6px solid #f7a399;
+    border-radius: 10px;
+    background-image: url("images/curtains.png");
+    background-size: cover;
+}
+
+#gift-img-excitement:hover {
+    background-image: url("images/excitement.gif");
+}
+
+#gift-img-yuck:hover {
+    background-image: url("images/yuck.gif");
+}
+
+#gift-img-annoyed:hover {
+    background-image: url("images/annoyed.gif");
+}
+
+#gift-img-hyper:hover {
+    background-image: url("images/hyper.gif");
+}
+
+#gift-img-picasso2:hover {
+    background-image: url("images/picasso2.jpg");
+}
+
+#footer {
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+}
+
+a {
+    color: #ef6351;
+}
+
+/* 
+Add the footer paragraph according to the design. 
+Configure the anchor tag to open the link in a new tab.
+Forgotten how to do it? Google it! 
+
+Link: 
+https://scrimba.com/learn/htmlandcss
+
+Text:
+Want to create your own Birthday GIFt site? Take this HTML & CSS course.
+*/
